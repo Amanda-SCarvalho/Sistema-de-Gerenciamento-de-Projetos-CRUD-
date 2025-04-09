@@ -1,0 +1,90 @@
+body {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33158c;
+    border-radius: 8px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #8d8ca1;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid #33158c;
+    padding: 10px;
+    text-align: center;
+}
+
+input[type=text],
+select {
+    width: 80%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #0008ff;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 60%;
+    background-color: #33158c;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0000ff;
+}
+
+div {
+    border-radius: 8px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.button {
+    width: 50%;
+    background-color: #33158c;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}

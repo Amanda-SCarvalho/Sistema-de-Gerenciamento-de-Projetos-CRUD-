@@ -1,0 +1,104 @@
+body {
+    align-items: center;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33158c;
+    border-radius: 8px;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #8d8ca1;
+    color: #ffffff;
+    border-radius: 8px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 25px 0px;
+    font-size: 18px;
+    font-family: "Libre Franklin", sans-serif;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    background-color: rgb(238, 238, 238);
+    border-radius: 8px;
+
+}
+
+th,
+td {
+    padding: 10px 10px;
+    border: 1px solid black;
+
+}
+
+th {
+    background-color: #33158c;
+    color: white;
+    text-align: center;
+}
+
+.button_atualizar {
+    width: 30%;
+    background-color: #1c0098;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button_excluir {
+    width: 20%;
+    background-color: #ba0000;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button_novo {
+    width: 20%;
+    background-color: #1c0098;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
